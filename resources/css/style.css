@@ -12,9 +12,9 @@ header {
 	height: 80px;
 	border-bottom: 1px solid black;
 	z-index: 1;
-	background-color: white;
-	
+	background-color: white;	
 }
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -27,24 +27,72 @@ header {
 	padding-left: 10px;
 }
 
-header nav{
+header nav {
 	padding-right: 40px;
 }
+
 nav span {
 	display: inline-block;
 	padding: 20px 10px;
 }
+
 nav a {
 	color: black;
 }
 
-.content{
+.content {
     display: flex;
     width: 1232px;
     margin: 0 auto 78px auto;
     padding-top: 116px;
 }
 
+div {
+	border:1px solid black;
+	display: block;
+}
+
+h2 {
+	display: block;
+	font-weight: bold;
+}
+
+h3 {
+	display: block;
+	font-weight: bold;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
 .column.large {
-  width: 630px;
+  	width: 630px;
+}
+
+.column.medium {
+  	width: 300px;
+}
+
+.column.small {
+  	width: 240px;
+}
+.narrative {
+  	display: block;
+  	margin: 1px 0px;
+}
+
+.top.story .top.copy{
+	background-image: url(file:///C:/cygwin64/home/Zenid/MyTimes/resources/images/img-story-main.png);
+	width: 630px;
+	margin-top: 0;
+	font-size 40px;
+	text-align: left;
+}
+.top.copy{
+	font-family: Georgia;
+	font-weight: bold;
+	color: white;
 }
